@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:HWS StormViewer.xcodeproj">
+      location = "self:/Users/alexcastrillo/appTutorials/2019/HWS Social Media/HWS Social Media.xcodeproj">
    </FileRef>
 </Workspace>

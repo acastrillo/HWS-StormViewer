@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  HWS StormViewer
+//  HWS Social Media
 //
 //  Created by Alex Castrillo on 8/23/19.
 //  Copyright © 2019 Alejo Games. All rights reserved.

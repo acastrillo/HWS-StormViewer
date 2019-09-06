@@ -27,7 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9F5C14372310B01D00A2FE5D /* HWS StormViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HWS StormViewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F5C14372310B01D00A2FE5D /* HWS Social Media.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HWS Social Media.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F5C143A2310B01D00A2FE5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F5C143C2310B01D00A2FE5D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9F5C143F2310B01D00A2FE5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -62,7 +62,7 @@
 		9F5C142E2310B01D00A2FE5D = {
 			isa = PBXGroup;
 			children = (
-				9F5C14392310B01D00A2FE5D /* HWS StormViewer */,
+				9F5C14392310B01D00A2FE5D /* HWS Social Media */,
 				9F5C14382310B01D00A2FE5D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,12 +70,12 @@
 		9F5C14382310B01D00A2FE5D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9F5C14372310B01D00A2FE5D /* HWS StormViewer.app */,
+				9F5C14372310B01D00A2FE5D /* HWS Social Media.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9F5C14392310B01D00A2FE5D /* HWS StormViewer */ = {
+		9F5C14392310B01D00A2FE5D /* HWS Social Media */ = {
 			isa = PBXGroup;
 			children = (
 				9F5C143A2310B01D00A2FE5D /* AppDelegate.swift */,
@@ -88,7 +88,7 @@
 				9F5C14462310B01E00A2FE5D /* Info.plist */,
 				9F5C144C2311C21400A2FE5D /* Content */,
 			);
-			path = "HWS StormViewer";
+			path = "HWS Social Media";
 			sourceTree = "<group>";
 		};
 		9F5C144C2311C21400A2FE5D /* Content */ = {
@@ -111,9 +111,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9F5C14362310B01D00A2FE5D /* HWS StormViewer */ = {
+		9F5C14362310B01D00A2FE5D /* HWS Social Media */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9F5C14492310B01E00A2FE5D /* Build configuration list for PBXNativeTarget "HWS StormViewer" */;
+			buildConfigurationList = 9F5C14492310B01E00A2FE5D /* Build configuration list for PBXNativeTarget "HWS Social Media" */;
 			buildPhases = (
 				9F5C14332310B01D00A2FE5D /* Sources */,
 				9F5C14342310B01D00A2FE5D /* Frameworks */,
@@ -123,9 +123,9 @@
 			);
 			dependencies = (
 			);
-			name = "HWS StormViewer";
+			name = "HWS Social Media";
 			productName = "HWS StormViewer";
-			productReference = 9F5C14372310B01D00A2FE5D /* HWS StormViewer.app */;
+			productReference = 9F5C14372310B01D00A2FE5D /* HWS Social Media.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -143,7 +143,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9F5C14322310B01D00A2FE5D /* Build configuration list for PBXProject "HWS StormViewer" */;
+			buildConfigurationList = 9F5C14322310B01D00A2FE5D /* Build configuration list for PBXProject "HWS Social Media" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -156,7 +156,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9F5C14362310B01D00A2FE5D /* HWS StormViewer */,
+				9F5C14362310B01D00A2FE5D /* HWS Social Media */,
 			);
 		};
 /* End PBXProject section */
@@ -340,12 +340,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J6G8H8EZWS;
-				INFOPLIST_FILE = "HWS StormViewer/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/HWS Social Media/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.AlejoGames.HWS-StormViewer";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AlejoGames.HWS-SocialMedia";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -358,12 +358,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J6G8H8EZWS;
-				INFOPLIST_FILE = "HWS StormViewer/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/HWS Social Media/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.AlejoGames.HWS-StormViewer";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AlejoGames.HWS-SocialMedia";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -373,7 +373,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9F5C14322310B01D00A2FE5D /* Build configuration list for PBXProject "HWS StormViewer" */ = {
+		9F5C14322310B01D00A2FE5D /* Build configuration list for PBXProject "HWS Social Media" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9F5C14472310B01E00A2FE5D /* Debug */,
@@ -382,7 +382,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9F5C14492310B01E00A2FE5D /* Build configuration list for PBXNativeTarget "HWS StormViewer" */ = {
+		9F5C14492310B01E00A2FE5D /* Build configuration list for PBXNativeTarget "HWS Social Media" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9F5C144A2310B01E00A2FE5D /* Debug */,
