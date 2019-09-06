@@ -24,7 +24,10 @@ class DetailViewController: UIViewController {
         if let imageToLoad = selectedImage {
             imageView.image  = UIImage(named: imageToLoad)
         }
+<<<<<<< HEAD:HWS Social Media/DetailViewController.swift
         navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .action, target: self, action: #selector(shareTapped))
+=======
+>>>>>>> ab03fa626346a87e36ada89b1278a4f0ad0968bf:HWS StormViewer/DetailViewController.swift
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -36,6 +39,7 @@ class DetailViewController: UIViewController {
         super.viewWillDisappear(animated)
         navigationController?.hidesBarsOnTap = false
     }
+<<<<<<< HEAD:HWS Social Media/DetailViewController.swift
     
     @objc func shareTapped() {
         guard let image = imageView.image?.jpegData(compressionQuality: 0.8) else {
@@ -47,4 +51,6 @@ class DetailViewController: UIViewController {
         uiActivityVC.popoverPresentationController?.barButtonItem = navigationItem.rightBarButtonItem
         present(uiActivityVC, animated: true)
     }
+=======
+>>>>>>> ab03fa626346a87e36ada89b1278a4f0ad0968bf:HWS StormViewer/DetailViewController.swift
 }

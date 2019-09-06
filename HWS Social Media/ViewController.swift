@@ -22,15 +22,16 @@ class ViewController: UITableViewController {
         
         for item in items {
             if item.hasPrefix("nssl"){
-                
                 pictures.append(item)
-                
             }
         }
+        
         title = "Storm Viewer"
-        print(pictures)
         
         navigationController?.navigationBar.prefersLargeTitles = true
+        
+        //Challenge: Add a bar button item to the main view controller that recommends the app to other people
+        navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .action, target: self, action: #selector(shareApp))
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -38,10 +39,10 @@ class ViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        // Challenge 2: Have the items sorted. added .sort to pictures
+        // Challenge: Have the items sorted. added .sort to pictures
         pictures.sort()
         let cell = tableView.dequeueReusableCell(withIdentifier: "Picture", for: indexPath)
-        // Challenge 3: have the title show "Picture X of Y”, where Y is the total number of images and X is the selected picture’s position in the array.
+        // Challenge: have the title show "Picture X of Y”, where Y is the total number of images and X is the selected picture’s position in the array.
         cell.textLabel?.text = "Picture \(indexPath.item) of \(pictures.count)"
         return cell
     }
@@ -52,5 +53,12 @@ class ViewController: UITableViewController {
             navigationController?.pushViewController(vc, animated: true)
         }
     }
+    
+    @objc func shareApp(){
+        let shareAppActivity = UIActivityViewController(activityItems: ["Share this app with your friends"], applicationActivities: [])
+        shareAppActivity.popoverPresentationController?.barButtonItem = navigationItem.rightBarButtonItem
+        present(shareAppActivity, animated: true)
+    }
+    
 }
 
